@@ -1,0 +1,52 @@
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainDiv{
+    width: 310px;
+    border-style: inset;
+    padding: 2px;
+}
+
+#headerDiv{
+    border: 1px solid black;
+    height: 40px;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-bottom: 2px;
+}
+
+#inputAreaParent{
+    height:40px;
+    border: 1px solid black;
+    margin-bottom: 2px;
+}
+
+#inputArea{
+    border: 1px solid black;
+    height: 90%;
+    width: 90%;
+    text-align: right;
+    margin: 2px 0px;
+    font-size: 1.5em;
+}
+
+#keysAreaParent{
+    border: 1px solid black;
+}
+
+.keys{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 3px;
+    height: 35px;
+    width: 64.5px;
+    margin: 3px;
+    width: 2px 0px;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
